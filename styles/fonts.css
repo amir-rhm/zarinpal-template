@@ -1,0 +1,14 @@
+@font-face {
+    font-family: iranYekanMedium;
+    src: url("../fonts/YekanBakhMedium.woff") format("woff");
+}
+
+@font-face {
+    font-family: iranYekanHeavy;
+    src: url("../fonts/YekanBakhHeavy.woff") format("woff");
+}
+
+@font-face {
+    font-family: iranYekanBold;
+    src: url("../fonts/YekanBakhBold.woff") format("woff");
+}

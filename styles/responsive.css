@@ -1,0 +1,153 @@
+.container {
+  width: 100%;
+  padding: 0 calc(var(--base-spacing) * 2);
+  margin: 0 auto;
+}
+
+.top-header-container {
+  width: 100%;
+}
+
+@media screen and (min-width: 576px) {
+  .container {
+    width: 54rem;
+    padding: 0;
+  }
+  .col-bg {
+    display: block;
+  }
+
+  .section-bgImg--dargah {
+    background-position-x: 2.4rem;
+  }
+  .section-bgImg--tashim {
+    background-position-x: 0;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .container,.top-header-container {
+    width: 72rem;
+  }
+  .top-header-container{
+    padding: 0 calc(var(--base-spacing) * 2);
+    margin: 0 auto;
+  }
+  .nav {
+    display: block;
+  }
+  .hamburger-menu {
+    display: none;
+  }
+  .section-bgImg--tashim {
+    background-position-x: 12rem;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .container,.top-header-container {
+    width: 96rem;
+  }
+
+  .learn-more {
+    transition: background-color 200ms;
+    display: inline-block;
+    background-color: var(--bg-color);
+    /* color: #000; */
+  }
+
+  .btn-text__link {
+    color: var(--btn-text-color);
+  }
+
+  .learn-more:hover {
+    background-color: rgba(228, 197, 0, 0.15);
+  }
+
+  .col-half {
+    flex-basis: 50%;
+    position: relative;
+    z-index: 100;
+    display: block;
+  }
+
+  .row {
+    justify-content: space-between;
+    flex-direction: row;
+    gap: 32px;
+  }
+
+  /* .section-bgImg--dargah {
+  background: url("../images/pg.svg") no-repeat;
+  background-position-x: 11.4rem;
+} */
+
+  .section-bgImg--dargah {
+    background-position-x: unset;
+  }
+
+  .section-bgImg--zarin {
+  }
+
+  .section-bgImg--card {
+    background-position: 5.4rem 6.8rem;
+  }
+
+  .section-bgImg--tashim {
+    background-position: unset;
+  }
+
+  .section-bgImg--plus {
+    background-position: 0 6rem;
+  }
+
+  .section-bgImg {
+    height: 471px;
+  }
+  .footer-wrapper {
+    flex-direction: row;
+  }
+
+  .footer-links {
+    flex-basis: 70%;
+  }
+  .footer-social {
+    flex: 30%;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .container,.top-header-container {
+    width: 117rem;
+  }
+
+  .features {
+    flex-direction: row;
+  }
+
+  .section-bgImg--dargah {
+    background-position-x: 11.4rem;
+  }
+
+  .section-bgImg--zarin {
+  }
+
+  .section-bgImg--card {
+    background-position: 16rem 6.8rem;
+  }
+
+  .section-bgImg--tashim {
+    background-position: unset;
+  }
+
+  .section-bgImg--plus {
+    background-position: 13rem 6rem;
+  }
+  .support-info {
+    display: flex;
+  }
+
+  .join-box {
+    margin-bottom: 0;
+  }
+}
